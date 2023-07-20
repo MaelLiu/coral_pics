@@ -7,5 +7,5 @@ for file in os.listdir("."):
         os.system("git commit -m 'add a new image'")
         os.system("git push origin main")
         print(new_file)
-        os.system("rm {new_file}")
+        os.system("rm " + new_file)
 
